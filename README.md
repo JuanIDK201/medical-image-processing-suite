@@ -114,7 +114,7 @@ medical-image-processing-suite/
 
 **Juan Garzón**  
 *Biomedical & Computer Vision Engineer*  
-- GitHub: [@JuanGarzon](https://github.com/JuanGarzon)
+- GitHub: [@JuanIDK201](https://github.com/JuanIDK201)
 
 ---
 
