@@ -1,0 +1,11 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.slxc
+*.matlab
+*.fig~
+
+# Logs & Temporary
+*.log
+Thumbs.db
+.DS_Store
