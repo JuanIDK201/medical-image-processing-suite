@@ -1,4 +1,4 @@
-# 🔬 Medical Image Processing Suite
+﻿# Medical Image Processing Suite
 ### Comprehensive Medical Image Processing and Computer-Aided Diagnostic (CAD) Segmentation Suite
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2022%2B-ED592F?style=for-the-badge&logo=mathworks&logoColor=white)](https://www.mathworks.com/)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Medical Image Processing Suite** is a modular computational library developed in **MATLAB** for biomedical image enhancement, morphological feature extraction, and automated anatomical/pathological segmentation. 
 
@@ -29,7 +29,7 @@ graph TD
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Contrast Enhancement & Spatial Filtering**:
   - Contrast-Limited Adaptive Histogram Equalization (CLAHE) for deep tissue feature recovery.
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Domain | Technologies |
 |---|---|
@@ -57,42 +57,42 @@ graph TD
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 medical-image-processing-suite/
-├── src/
-│   ├── segmentation/               # Segmentation algorithms
-│   │   ├── Binarizacion.m          # Adaptive and global thresholding
-│   │   ├── Segmentacion.m          # Color thresholding
-│   │   ├── Segmentacion_3.m
-│   │   ├── Segmentacion_Azul.m     # Blue chrominance filter
-│   │   ├── Segmentacion_Rojo.m     # Red dye isolation
-│   │   └── Segmentacion_Verde.m
-│   ├── enhancement_filters/        # Enhancement and convolution kernels
-│   │   ├── Ecualizada.m            # Histogram equalization & CLAHE
-│   │   ├── Gaussiano.m             # Gaussian spatial smoothing
-│   │   ├── Laplaceano.m            # 2nd derivative edge detection
-│   │   ├── HSV.m                   # HSV color space transformations
-│   │   ├── Kernel1.m
-│   │   └── Maskernels.m
-│   ├── morphological_analysis/     # Morphological filters and cell counting
-│   │   ├── Morfologicas.m          # Structural element opening/closing
-│   │   ├── Celulas.m               # Cell colony counting
-│   │   └── Cancer.m                # Tissue lesion boundary detection
-│   └── clinical_applications/      # Specialized diagnostics
-│       ├── plantar_pressure_analyzer.m # Orthopedic footprint pressure engine
-│       ├── comprehensive_exam_pipeline.m
-│       └── tissue_analysis_p1.m
-├── docs/                           # Laboratory reports and sample datasets
-├── .gitignore
-├── LICENSE
-└── README.md
+ src/
+    segmentation/               # Segmentation algorithms
+       Binarizacion.m          # Adaptive and global thresholding
+       Segmentacion.m          # Color thresholding
+       Segmentacion_3.m
+       Segmentacion_Azul.m     # Blue chrominance filter
+       Segmentacion_Rojo.m     # Red dye isolation
+       Segmentacion_Verde.m
+    enhancement_filters/        # Enhancement and convolution kernels
+       Ecualizada.m            # Histogram equalization & CLAHE
+       Gaussiano.m             # Gaussian spatial smoothing
+       Laplaceano.m            # 2nd derivative edge detection
+       HSV.m                   # HSV color space transformations
+       Kernel1.m
+       Maskernels.m
+    morphological_analysis/     # Morphological filters and cell counting
+       Morfologicas.m          # Structural element opening/closing
+       Celulas.m               # Cell colony counting
+       Cancer.m                # Tissue lesion boundary detection
+    clinical_applications/      # Specialized diagnostics
+        plantar_pressure_analyzer.m # Orthopedic footprint pressure engine
+        comprehensive_exam_pipeline.m
+        tissue_analysis_p1.m
+ docs/                           # Laboratory reports and sample datasets
+ .gitignore
+ LICENSE
+ README.md
 ```
 
 ---
 
-## ⚙️ Running in MATLAB
+## Running in MATLAB
 
 1. Open MATLAB.
 2. Add the repository directory to your MATLAB path:
@@ -110,7 +110,7 @@ medical-image-processing-suite/
 
 ---
 
-## 👤 Author
+## Author
 
 **Juan Garzón**  
 *Biomedical & Computer Vision Engineer*  
@@ -118,6 +118,6 @@ medical-image-processing-suite/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
